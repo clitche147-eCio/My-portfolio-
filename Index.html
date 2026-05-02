@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibusiso Portfolio</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION (TOP PAGE) -->
+    <section class="hero">
+
+        <!-- Background Image -->
+        <img src="background.jpg" class="bg-image"> <!-- #this is your image -->
+
+        <!-- Overlay content -->
+        <div class="hero-content">
+
+            <h2>My</h2>
+
+            <h1>portfolio</h1>
+
+            <p class="subtitle">Who I am</p>
+
+            <!-- Button -->
+            <button onclick="scrollToStory()">Let find out</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- STORY SECTION -->
+    <section class="story" id="story">
+
+        <!-- Same background but blurred -->
+        <img src="background.jpg" class="bg-blur"> <!-- #same image but styled in CSS -->
+
+        <!-- Story Content -->
+        <div class="story-content">
+
+            <h2>My Story</h2>
+
+            <p>
+                Hi, my name is Sibusiso Brain Nzama.
+                I am a 17-year-old science student studying Physical Sciences and Life Sciences.
+                I am a self-taught software developer, still learning, exploring, and building projects using only a mobile phone.
+            </p>
+
+            <p>
+                I have created several projects including an AI logic analyser that compares two things and decides a winner using reasoning,
+                a mini arcade game, a calculator, and a video downloader.
+            </p>
+
+            <p>
+                I am passionate about building, solving problems, and improving my skills every day.
+                My goal is to continue growing and create more advanced and meaningful projects.
+            </p>
+
+            <p>
+                If you believe in my journey and want to support my progress,
+                your support will help me get better tools to build even more powerful projects.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="buttons">
+
+                <a href="your-paypal-link" target="_blank">
+                    <button>Support Me</button>
+                </a>
+
+                <a href="your-youtube-link" target="_blank">
+                    <button>YouTube</button>
+                </a>
+
+                <a href="your-discord-link" target="_blank">
+                    <button>Discord</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function scrollToStory() {
+            document.getElementById("story").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+</body>
+  </html>
